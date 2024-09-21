@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "YeZiFont";
+  src: url("../font/YeZiGongChangFengManXiuXingKai-2.ttf");
+  font-weight: normal; /* 设置字体的粗细 */
+  font-style: italic; /* 设置字体的样式（如斜体） */
+}
+
+body {
+  background-color: black;
+}
+
+.title {
+  font-family: "YeZiFont";
+}
+
+.title {
+  /* 文字上下水平居中 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  background-image: linear-gradient(
+    to top,
+    rgb(31, 29, 29),
+    rgb(93, 93, 91),
+    rgb(232, 237, 232)
+  );
+  background-clip: text; /*将设置的背景颜色限制在文字中*/
+  -webkit-text-fill-color: transparent; /*给文字设置成透明*/
+}
